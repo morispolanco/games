@@ -14,26 +14,26 @@ const TopBanner = () => {
   }, []);
 
   return (
-    <div className="w-full bg-black/60 flex items-center justify-center sticky top-0 z-40 backdrop-blur-md border-b border-zinc-800/50 overflow-hidden min-h-[250px]">
-      <div className="relative w-full max-w-[970px] flex justify-center">
+    <div className="w-full bg-black/60 flex items-center justify-center sticky top-0 z-40 backdrop-blur-md border-b border-zinc-800/50 overflow-hidden min-h-[90px]">
+      <div className="relative w-full max-w-[728px] flex justify-center">
         <ins 
           ref={adRef}
-          className="hf22e2a9e7a"
+          className="r2d3a079c17"
           style={{ 
-            width: "970px", 
-            height: "250px", 
+            width: "728px", 
+            height: "90px", 
             display: "block",
             margin: "0 auto",
             maxWidth: "100%"
           }}
-          data-width="970" 
-          data-height="250" 
+          data-width="728" 
+          data-height="90" 
           data-domain="//data527.click" 
-          data-affquery="/0fc8c9c0e1f7ffaacf3d/f22e2a9e7a/?placementName=default"
+          data-affquery="/bf8d1785e8103a9813c3/2d3a079c17/?placementName=default"
         ></ins>
         {/* Helper message for developer if ad is blocked */}
         <div className="absolute inset-0 -z-10 flex items-center justify-center text-[10px] text-zinc-800 font-mono uppercase tracking-widest">
-          Transmisión Encriptada... (Si no carga, verifica tu AdBlocker)
+          Transmisión Encriptada...
         </div>
       </div>
     </div>
