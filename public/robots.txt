@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://archivo-prohibido.vercel.app/sitemap.xml
